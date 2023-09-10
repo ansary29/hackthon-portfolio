@@ -1,0 +1,157 @@
+/* Apply custom styles to specific elements and sections */
+
+/* Navbar Styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    border: none; 
+    border-radius: 0;
+    margin-bottom: 0; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+/* Hero Banner Styles */
+#hero {
+    background-image: url('./images/960x0.webp'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Skills Section Styles */
+#skills {
+    background-color: #f9f9f9; /* Add a light background color */
+    padding: 50px 0;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* My Projects Section Styles */
+#projects {
+    padding: 50px 0;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1.2rem;
+}
+
+/* About Me Section Styles */
+#about {
+    background-color: #f9f9f9; /* Add a light background color */
+    padding: 50px 0;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px 0;
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Dark Mode Toggle Button Styles */
+#dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #000; 
+    color: #fff; 
+}
+
+
+@media (max-width: 768px) {
+    
+    body {
+        font-size: 16px;
+    }
+
+    
+    .navbar-nav {
+        flex-direction: column; 
+    }
+
+  
+    .hidden-on-mobile {
+        display: none; 
+    }
+
+    
+    .img-responsive {
+        max-width: 100%; 
+        height: auto;
+    }
+
+    .section {
+        margin: 20px 0;
+        padding: 20px; 
+    }
+
+    
+    .column {
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+    .center-text {
+        text-align: center;
+    }
+
+   
+}
+
+
+
+

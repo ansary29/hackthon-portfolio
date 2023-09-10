@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      integrity="sha384-nzFyqtI+a5pHxiD6eM7S6zquMAwWfH/39FkS0a5r5l5u8fX/8qvaFmcMjF54F1l5C"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Navbar section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#hero">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Banner Section -->
+    <section id="hero" class="bg-primary text-light text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Mohamed Ansary</h1>
+        <p>Welcome to my portfolio website</p>
+        <a href="./Ansary.pdf" download class="btn btn-light">Download Resume</a>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+      <div class="container">
+        <h2 class="text-center">Skills</h2>
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">HTML5</li>
+          <li class="list-group-item">CSS3</li>
+          <li class="list-group-item">JavaScript</li>
+          <li class="list-group-item">React</li>
+          <li class="list-group-item">Mongodb</li>
+          <li class="list-group-item">Node.js</li>
+          <!-- Add more skills here -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- My Projects Section -->
+    <section id="projects" class="py-5">
+      <div class="container">
+        <h2 class="text-center">My Projects</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./images/ecommerce.png"
+                class="card-img-top img-fluid"
+                alt="Project 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mobile Ecommerce</h5>
+                <p class="card-text">In this user able to order a item in online through this platform
+                  and make a payment in paypal.
+
+                </p>
+                <a href="#" class="btn btn-primary">https://resplendent-bienenstitch-94a0c9.netlify.app/</a>
+              </div>
+            </div>
+          </div>
+          <!-- Repeat similar card elements for other projects -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center">About Me</h2>
+        <p>
+          Iam worked as junior developer in arbaan gt private limited . in that
+          i have worked some projects.i have completed a full stack developer in
+          guvi
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center">Contact</h2>
+        <p>Email: mohamedansary29@example.com</p>
+        <h3 class="text-center">Get in Touch</h3>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              class="form-control"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer/Copyright Section -->
+    <footer class="bg-dark text-light text-center py-3">
+      <p>&copy; 2023 Mohamed Ansary</p>
+    </footer>
+
+    <!-- Dark/Light Mode Toggle Button -->
+    <button id="dark-mode-toggle" class="btn btn-dark fixed-bottom m-3">
+      Dark Mode
+    </button>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
