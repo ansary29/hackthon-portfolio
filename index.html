@@ -2,170 +2,269 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Your Portfolio</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      integrity="sha384-nzFyqtI+a5pHxiD6eM7S6zquMAwWfH/39FkS0a5r5l5u8fX/8qvaFmcMjF54F1l5C"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./style.css" />
-    
-    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
   </head>
   <body>
-    <!-- Navbar section -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#hero">Home</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+    <!-- Navbar Section -->
+    <header>
+      <div>
+        <span class="logo">Mohamed Ansary</span>
       </div>
-    </nav>
-
-    <!-- Hero Banner Section -->
-    <section id="hero" class="bg-primary text-light text-center py-5">
-      <div class="container">
-        <h1 class="display-4">Mohamed Ansary</h1>
-        <p>Welcome to my portfolio website</p>
-        <a href="./Ansary.pdf" download class="btn btn-light">Download Resume</a>
-      </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="py-5">
-      <div class="container">
-        <h2 class="text-center">Skills</h2>
-        <ul class="list-group list-group-horizontal">
-          <li class="list-group-item">HTML5</li>
-          <li class="list-group-item">CSS3</li>
-          <li class="list-group-item">JavaScript</li>
-          <li class="list-group-item">React</li>
-          <li class="list-group-item">Mongodb</li>
-          <li class="list-group-item">Node.js</li>
-          <!-- Add more skills here -->
+      <div>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#work">Projects</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-    </section>
+    </header>
 
-    <!-- My Projects Section -->
-    <section id="projects" class="py-5">
-      <div class="container">
-        <h2 class="text-center">My Projects</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                src="./images/ecommerce.png"
-                class="card-img-top img-fluid"
-                alt="Project 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Mobile Ecommerce</h5>
-                <p class="card-text">In this user able to order a item in online through this platform
-                  and make a payment in paypal.
+    <!-- Hero/Banner Section -->
+    <main>
+      <section class="hero-section" id="hero">
+        <div>
+          <div>
+            <h4 title="Hello ,How are you">Hi there</h4>
+            <h2 class="hero-section__title">
+              <span> I'm Mohamed Ansary</span>
+            </h2>
+            <p class="hero-section__desc">Welcome to my portfolio website</p>
+          </div>
 
-                </p>
-                <a href="#" class="btn btn-primary">https://resplendent-bienenstitch-94a0c9.netlify.app/</a>
-              </div>
+          <ul class="social-icons">
+            <!-- Social icons -->
+            <li>
+              <a href="https://linkedin.com/ansary29" target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/ansary29" target="_blank">
+                <i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+          </ul>
+          <div>
+            <button class="btn btn-primary">Download Resume</button>
+          </div>
+        </div>
+        <div class="hero-section-img">
+          <img src="./images/IMG_9351.JPG" alt="ansaryportfolio" width="350" />
+        </div>
+      </section>
+
+      <!-- About Me Section -->
+      <section class="about-section" id="about">
+        <img src="./images/IMG_9351.JPG" alt="about me" width="450" />
+        <div class="about-section-desc">
+          <h4>Iam Full Stack <br /><span> Developer(Mern)</span></h4>
+          <ul>
+            <li><strong>Experience:</strong>2yrs</li>
+            <li><strong>Speciality:</strong>Web developer</li>
+            <li><strong>Address:</strong>sunnambukar street</li>
+            <li>
+              <strong>email:</strong
+              ><a href="mailto:mohamedansary29@gmail.com"></a
+              >mohamedansary29@gmail.com
+            </li>
+            <li>
+              <strong><a href="tel:7010352563"></a>Phone:</strong>7010352563
+            </li>
+          </ul>
+          <button class="btn btn-primary">Know more</button>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills-section" id="skills">
+        <div>
+          <h2>Skills</h2>
+          <div class="skills-section-data">
+            <div class="skills_name">
+              <i class="bx bxl-html5 skill_icon"></i>
+              <span class="skill_name">Html5</span>
+            </div>
+
+            <div><span class="skills_perctange">90%</span></div>
+
+            <div class="skill_bar skill_html"></div>
+          </div>
+          <div class="skills-section-data">
+            <div class="skills_name">
+              <i class="bx bxl-css3 skill_icon"></i>
+              <span class="skill_name">Css3</span>
+            </div>
+
+            <div><span class="skills_perctange">80%</span></div>
+
+            <div class="skill_bar skill_css"></div>
+          </div>
+          <div class="skills-section-data">
+            <div class="skills_name">
+              <i class="bx bxl-javascript skill_icon"></i>
+              <span class="skill_name">JavaScript</span>
+            </div>
+
+            <div><span class="skills_perctange">85%</span></div>
+
+            <div class="skill_bar skill_js"></div>
+          </div>
+          <div class="skills-section-data">
+            <div class="skills_name">
+              <i class="bx bxl-react skill_icon"></i>
+              <span class="skill_name">React.js</span>
+            </div>
+
+            <div><span class="skills_perctange">85%</span></div>
+
+            <div class="skill_bar skill_react"></div>
+          </div>
+          <div class="skills-section-data">
+            <div class="skills_name">
+              <i class="bx bxs-data skill_icon"></i>
+              <span class="skill_name">Mongodb</span>
+            </div>
+
+            <div><span class="skills_perctange">80%</span></div>
+            <div class="skill_bar skill_mongodb"></div>
+          </div>
+          <div class="skills-section-data">
+            <div class="skills_name">
+              <i class="bx bxl-nodejs skill_icon"></i>
+              <span class="skill_name">Node.js</span>
+            </div>
+
+            <div><span class="skills_perctange">80%</span></div>
+
+            <div class="skill_bar skill_nodejs"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Projects Section -->
+      <section class="work-section" id="work">
+        <h4 class="work-section_title">My <span>Works</span></h4>
+        <!-- Add project cards here -->
+        <div class="work-section-items">
+          <div class="work-section-box">
+            <!-- icons -->
+            <!-- <span class="work-section-box-icons">
+              <i class="fa-brands fa-linkedin"></i>
+            </span> -->
+            <div class="work-section-box__desc">
+              <img src="./images/mobilestore.png" alt="" />
+              <h2>Mobile Ecommerce</h2>
+              <p>In this user able to order a mobile in this platform</p>
+              <a href="https://ecommfrontend.vercel.app/" target="_blank"
+                >See My Work</a
+              >
             </div>
           </div>
-          <!-- Repeat similar card elements for other projects -->
+          <div class="work-section-box">
+            <!-- icons -->
+            <!-- <span class="work-section-box-icons">
+              <i class="fa-brands fa-linkedin"></i>
+            </span> -->
+            <div class="work-section-box__desc">
+              <img src="./images/resortroombook.png" alt="" />
+              <h2>Resort Room Booking</h2>
+              <p>
+                In this app user able to book a room on delux and non-deluxe
+              </p>
+              <a
+                href="https://resort-room-bookingfront.vercel.app/"
+                target="_blank"
+                >See My Work</a
+              >
+            </div>
+          </div>
+          <div class="work-section-box">
+            <!-- icons -->
+            <!-- <span class="work-section-box-icons">
+              <i class="fa-brands fa-linkedin"></i>
+            </span> -->
+            <div class="work-section-box__desc">
+              <img src="./images/jobspng.png" alt="" />
+              <h2>Job Portal</h2>
+              <p>In this app user able to apply a job through this portal</p>
+              <a
+                href="https://jobsportalfrontend.vercel.app/login"
+                target="_blank"
+                >See My Work</a
+              >
+            </div>
+          </div>
+          <div class="work-section-box">
+            <div class="work-section-box__desc">
+              <img src="./images/mealfinder.png" alt="" />
+              <h2>Meal Finder using react.js</h2>
+              <p>In this app user able to apply a job through this portal</p>
+              <a
+                href="https://magenta-puffpuff-2aa154.netlify.app/"
+                target="_blank"
+                >See My Work</a
+              >
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- About Me Section -->
-    <section id="about" class="py-5">
-      <div class="container">
-        <h2 class="text-center">About Me</h2>
-        <p>
-          Iam worked as junior developer in arbaan gt private limited . in that
-          i have worked some projects.i have completed a full stack developer in
-          guvi
-        </p>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
-      <div class="container">
-        <h2 class="text-center">Contact</h2>
-        <p>Email: mohamedansary29@example.com</p>
-        <h3 class="text-center">Get in Touch</h3>
-        <form id="contact-form">
-          <div class="form-group">
-            <label for="name">Name:</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              class="form-control"
-              required
-            />
+      <!-- Contact Section -->
+      <section class="contact-section" id="contact">
+        <h4>Contact<span>Me</span></h4>
+        <form>
+          <div>
+            <input type="text" name="name" placeholder="Full Name" />
           </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              class="form-control"
-              required
-            />
+          <div>
+            <input type="text" name="subject" placeholder="What the matter" />
           </div>
-          <div class="form-group">
-            <label for="message">Message:</label>
+          <div>
             <textarea
-              id="message"
-              name="message"
-              rows="4"
-              class="form-control"
-              required
+              name="description"
+              rows="5"
+              placeholder="Enter Briefly"
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <div>
+            <button class="btn btn-primary">Send a message</button>
+          </div>
         </form>
-      </div>
-    </section>
+      </section>
 
-    <!-- Footer/Copyright Section -->
-    <footer class="bg-dark text-light text-center py-3">
-      <p>&copy; 2023 Mohamed Ansary</p>
-    </footer>
+      <!-- Footer/Copyright Section -->
+      <footer>
+        <p>
+          Copyright &copy; 2023
+          <a href="https://github.com/ansary29" target="_blank"
+            >Mohamed Ansary </a
+          >-All Right Reserved
+        </p>
+      </footer>
 
-    <!-- Dark/Light Mode Toggle Button -->
-    <button id="dark-mode-toggle" class="btn btn-dark fixed-bottom m-3">
-      Dark Mode
-    </button>
+      <!-- Dark/Light Mode Toggle Button -->
+      <button id="dark-mode-toggle">Dark Mode</button>
+    </main>
 
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
