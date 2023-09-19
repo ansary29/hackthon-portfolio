@@ -322,7 +322,7 @@ ul.social-icons {
 
 .work-section-items {
   display: flex;
-  
+
   justify-content: center;
 }
 
@@ -347,11 +347,7 @@ ul.social-icons {
 .work-section-box a {
   text-decoration: none;
   color: orange;
- 
-
-
 }
-
 
 .work-section-box__desc {
   /* margin-top: 10px;
@@ -359,12 +355,10 @@ ul.social-icons {
   margin: 20px 0;
 }
 
-
-
 .work-section-box__desc img {
-   width: 250px;
-   height: 200px;
-   object-fit: cover;
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .work-section-box__desc p {
@@ -445,20 +439,20 @@ footer a {
     padding-right: 139px;
   }
   header > * {
-     margin: 10px 0;
+    margin: 10px 0;
     /* margin-bottom: 5px; */
   }
 
-/* hero-section */
+  /* hero-section */
   section.hero-section {
     flex-direction: column;
     /* padding-right: 260px; */
-    padding-top: 170px; 
+    padding-top: 170px;
     padding-left: 20px;
   }
 
-  .logo{
-     padding:10px 0;
+  .logo {
+    padding: 10px 0;
   }
 
   section.hero-section img {
@@ -471,25 +465,18 @@ footer a {
     padding: 10px;
   }
 
-  
-  .skills-section-data{
-    margin : 20px 0;
+  .skills-section-data {
+    margin: 20px 0;
     padding: 20px;
     width: 95%;
   }
-
-  
 
   .about-section-desc {
     margin-left: 0;
     margin-top: 30px;
     width: 100%;
-    
+    overflow-wrap: break-word
   }
-
-
-
-
 
   /* myworks */
   .work-section {
